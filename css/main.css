@@ -155,9 +155,9 @@ h3 {
   color: #cccccc;
 }
 
-.color6 {
+/*.color6 {
   color: #003366;
-}
+}*/
 
 .color1_bg {
   background-color: #23257d;
@@ -179,10 +179,6 @@ h3 {
   background-color: #cccccc;
 }
 
-.color6_bg {
-  background-color: #003366;
-}
-
 /*general*/
 .float_right {
   float: right;
@@ -192,7 +188,6 @@ h3 {
   list-style-type: none !important;
   padding-left: 0px;
 }
-
 
 .check {
   width: 35px;
@@ -575,6 +570,15 @@ a:hover, a:active {
        clear: left;
        margin: 0% 0% 0% 0%;
        padding-left: 10%;
+     }
+
+     .link_titles {
+       clear: left;
+       width: 90%;
+       margin: 2% 0% 0% 0%;
+       padding-left: 10%;
+       text-decoration: none;
+       font-size: 100%;
      }
 
      .button_title_text {

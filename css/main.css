@@ -285,6 +285,11 @@ input[type="checkbox"] {
 
 }
 
+.logo {
+  width: 410px;
+  padding-left: 2%;
+  margin-bottom: -30px;
+}
 
 /*Body*/
 .project_play_title {
@@ -555,6 +560,12 @@ a:hover, a:active {
        font-size: 100%;
        font-weight: 700;
        width: 95%;
+     }
+
+     .logo {
+       width: 270px;
+       padding-left: .5%;
+       margin-bottom: -30px;
      }
 
      .video_bg {

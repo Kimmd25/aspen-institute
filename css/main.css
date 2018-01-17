@@ -286,7 +286,7 @@ input[type="checkbox"] {
 }
 
 .logo {
-  width: 410px;
+  width: 700px;
   padding-left: 2%;
   margin-bottom: -30px;
 }
@@ -303,15 +303,15 @@ input[type="checkbox"] {
 }
 
 .buttontext {
-  font-size: 110%;
-  font-weight: 600;
+  font-size: 200%;
+  font-weight: 500;
   text-transform: uppercase;
   text-align: center;
 }
 
 .button {
   position: relative;
-  width: 200px;
+  width: 60%;
   height: 70px;
   left: 3%;
   margin: 0px 0px 20px 0px;
@@ -347,14 +347,16 @@ input[type="checkbox"] {
 	left:0;
 	width:100%;
 	height:100%;
+
 }
 
 .iframe {
   width: 60%;
   height: 500px;
-  margin: auto;
+  margin-left: 42px;
   display: block;
-  padding-bottom: 5%;
+  padding-bottom: .5%;
+  padding-top: .5%;
 }
 
 
@@ -525,12 +527,44 @@ a:hover, a:active {
      	opacity: 1;
      }
 
+     .buttontext {
+       font-size: 130%;
+       font-weight: 600;
+       text-transform: uppercase;
+       text-align: center;
+     }
+
+     .button {
+       position: relative;
+       width: 80%;
+       height: 60px;
+       margin: 0px 0px 10px 0px;
+     }
+
+     .video-holder {
+     	position:relative;
+     	padding-bottom:56.25%;
+     	padding-top:30px;
+     	height:0;
+     	overflow:hidden;
+     }
+
+     .video-holder iframe, .video-holder object, .video-holder embed {
+     	position:absolute;
+     	top:0;
+     	left:0;
+     	width:100%;
+     	height:100%;
+
+     }
+
      .iframe {
-       width: 60%;
-       height: 300px;
-       margin: auto;
+       width: 80%;
+       height: 500px;
+       margin-left: 2.9%;
        display: block;
-       padding-bottom: 5%;
+       padding-bottom: .5%;
+       padding-top: .5%;
      }
 
 
@@ -573,14 +607,6 @@ a:hover, a:active {
        padding-bottom: 30px;
      }
 
-     .iframe {
-       width: 80%;
-       height: 80%;
-       margin: auto;
-       display: block;
-       padding-bottom: 5%;
-     }
-
      .video_title {
        font-size: 100%;
        width: 70%;
@@ -597,7 +623,7 @@ a:hover, a:active {
      }
 
      .buttontext {
-       font-size: 120%;
+       font-size: 90%;
        font-weight: 600;
        text-transform: uppercase;
        text-align: center;
@@ -605,9 +631,35 @@ a:hover, a:active {
 
      .button {
        position: relative;
-       width: 70%;
+       width: 90%;
        height: 60px;
-       margin: 0px 0px 10px 0px;
+       margin: 5px 0px 10px 0px;
+     }
+
+     .video-holder {
+     	position:relative;
+     	padding-bottom:56.25%;
+     	padding-top:30px;
+     	height:0;
+     	overflow:hidden;
+     }
+
+     .video-holder iframe, .video-holder object, .video-holder embed {
+     	position:absolute;
+     	top:0;
+     	left:0;
+     	width:100%;
+     	height:100%;
+
+     }
+
+     .iframe {
+       width: 90%;
+       height: 100%;
+       margin-left: 2.9%;
+       display: block;
+       padding-bottom: .5%;
+       padding-top: 1%;
      }
 
      .project_play_title {

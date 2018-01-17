@@ -291,6 +291,9 @@ input[type="checkbox"] {
   margin-bottom: -30px;
 }
 
+.target {
+  padding: 20px 0px 20px 30px;
+}
 /*Body*/
 .project_play_title {
   font-family: 'EB Garamond', serif;
@@ -519,6 +522,10 @@ a:hover, a:active {
 @media only screen
    and (max-width : 1366px)  {
 
+     p {
+       font-size: 100%;
+       width: 80%;
+     }
      .big_checkbox label:hover::after {
      	opacity: 0;
      }
@@ -602,6 +609,10 @@ a:hover, a:active {
        margin-bottom: -30px;
      }
 
+     .target {
+       padding: 10px 0px 10px 10px;
+       width: 90px;
+     }
      .video_bg {
        width: 95%;
        padding-bottom: 30px;

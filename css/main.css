@@ -133,6 +133,11 @@ h3 {
   width: 95%;
 }
 
+.italic {
+  font-style: italic;
+}
+
+
 /*Colors*/
 .color1 {
   color: #23257d;

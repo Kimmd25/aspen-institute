@@ -369,6 +369,25 @@ input[type="checkbox"] {
 }
 
 
+iframe {
+  width: 100%;
+}
+
+.aspect-ratio {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 51%;
+}
+
+.aspect-ratio iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0; top: 0;
+}
+
+
 .video_title {
   font-size: 150%;
   clear: left;
@@ -402,7 +421,7 @@ input[type="checkbox"] {
 }
 
 .other_checklist {
-  font-size: 150%;
+  font-size: 130%;
   margin: 0% 0;
   text-transform: none;
   padding-left: 3%;

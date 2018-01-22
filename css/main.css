@@ -461,7 +461,7 @@ input[type="checkbox"] {
 .counter_text_title {
   position: absolute;
   width: 55%;
-  margin-top: 15px;
+  margin-top: 38px;
 }
 
 .video_bg_checklist {
@@ -745,8 +745,10 @@ a:hover, a:active {
 
      .counter_text_title {
        position: absolute;
-       width: 55%;
-       margin-top: 15px;
+       width: 70%;
+       margin-top: 43px;
+       margin-left: -12px;
+       font-size: 30px;
      }
 
      .score_key {

@@ -1,3 +1,5 @@
+
+
 $(document).ready(function() {
     var $checkboxes = $(
         '#main ul input[type="checkbox"]');
@@ -8,11 +10,24 @@ $(document).ready(function() {
             countCheckedCheckboxes);
         $('#edit_count_checked_checkboxes').val(
             countCheckedCheckboxes);
-    });
+        });
+    $('.scrollUp').on('click', function(){window.parent.postMessage('scrollUp', '*');});
 });
 
 
 
+/*function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
+$(".gototop").on('click', function(){
+  topFunction();
+});*/
+
+
+
+/*
 FB.ui(
  {
   method: 'share',
@@ -30,4 +45,4 @@ FB.ui({
 }, function(response){
   // Debug response (optional)
   console.log(response);
-});
+});*/
